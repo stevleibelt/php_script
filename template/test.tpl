@@ -1,0 +1,13 @@
+<html>
+<head>
+</head>
+<body>
+<p>
+	{TEMPLATE_TEST_MAIN}
+	<ul>
+		<li>{TEMPLATE_TEST_LI_1}</li>
+		<li>{TEMPLATE_TEST_LI_2}</li>
+	</ul>
+</p>
+</body>
+</html>

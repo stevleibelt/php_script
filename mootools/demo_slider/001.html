@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>000</title>
+    <script type="text/javascript" src="http://library.bazzline.net/js/mootools/core/1/3/full/compat/yc.js"></script>
+
+  </head>
+  <body>
+    <script type="text/javascript">
+var collapsible = new Fx.Slide($('target-element'), {
+        duration: 500,
+        transition: Fx.Transitions.linear
+});
+
+collapsible.toggle();
+    </script>
+<!-- before the effect is applied -->
+<li>
+        <div  class="collapse">
+                <p>Some text here</p>
+        </div>
+</li>
+
+<!-- after slideIn effect was applied -->
+<li>
+        <div style="overflow: hidden; height: 0px;">
+                <div class="collapse" style="margin: -100px 0 0;">
+                        <p>Some text here</p>
+                </div>
+        </div>
+</li>
+
+<!-- after slideOut effect was applied -->
+<li>
+        <div style="overflow: hidden; height: 100px;">
+                <div class="collapse" style="margin: 0;">
+                        <p>Some text here</p>
+                </div>
+        </div>
+</li>
+  </body>
+</html>

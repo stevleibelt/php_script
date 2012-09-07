@@ -1,0 +1,327 @@
+================
+traceroute to mail.bazzline.net (82.197.146.48), 30 hops max, 60 byte packets
+ 1  195.71.141.61 (195.71.141.61)  4.478 ms  4.529 ms  4.269 ms
+ 2  rvhg-mnch-de51-lo-103.nw.mediaways.net (195.71.15.220)  344.445 ms  344.561 ms  344.535 ms
+ 3  rmwc-frnk-de01-chan-1-0.nw.mediaways.net (62.53.238.33)  344.445 ms  344.464 ms  344.552 ms
+ 4  rmwc-frnk-de02-xe-7-1-0-0.nw.mediaways.net (195.71.158.162)  376.513 ms rmwc-frnk-de02-so-2-1-0-0.nw.mediaways.net (195.71.158.22)  376.578 ms rmwc-frnk-de02-so-2-2-0-0.nw.mediaways.net (195.71.237.210)  376.936 ms
+ 5  rmwc-brln-de02-chan-2-0.nw.mediaways.net (195.71.212.134)  366.701 ms  367.315 ms  367.545 ms
+ 6  rmwc-brln-de01-chan-0-0.nw.mediaways.net (213.20.149.65)  367.765 ms rmwc-brln-de01-xe-0-1-0-0.nw.mediaways.net (62.53.167.229)  291.367 ms  339.402 ms
+ 7  rmwc-drsd-de01-ge-0-2-0-0.nw.mediaways.net (195.71.254.102)  308.059 ms  308.735 ms  308.667 ms
+ 8  xmwc-drsd-de02-vlan-3.nw.mediaways.net (213.20.188.195)  308.666 ms  315.436 ms  315.816 ms
+ 9  Telefonica.BER-1-eth0-475.de.lambdanet.net (217.71.107.93)  316.243 ms  316.599 ms  316.534 ms
+10  BER-4-eth210.de.lambdanet.net (217.71.96.30)  317.064 ms  316.906 ms  316.828 ms
+11  LEI-3-pos030.de.lambdanet.net (217.71.105.154)  323.572 ms  323.728 ms  304.833 ms
+12  sw01.alfahosting-server.de (217.71.97.2)  304.703 ms  304.065 ms  304.238 ms
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+================
+http://meineipadresse.de/html/ip-checker.php
+mail.bazzline.net
+====
+Address lookup
+canonical name 	leibelt.de.
+aliases 	
+addresses 	82.197.146.48
+Domain Whois record
+
+Queried whois.denic.de with "-T ace,dn leibelt.de"...
+
+Domain: leibelt.de
+Nserver: ns10.alfahosting.info
+Nserver: ns8.alfahosting.info
+Nserver: ns9.alfahosting.info
+Status: connect
+Changed: 2009-03-27T16:00:42+01:00
+
+[Tech-C]
+Type: PERSON
+Name: Herr Moritz Bartsch
+Organisation: Alfahosting GmbH
+Address: Ankerstraße 3b
+PostalCode: 06108
+City: Halle
+CountryCode: DE
+Phone: +49.3452093290
+Fax: +49.3456800499
+Email: hostmaster@alfahosting.de
+Changed: 2008-11-27T16:16:02+01:00
+
+[Zone-C]
+Type: PERSON
+Name: Herr Moritz Bartsch
+Organisation: Alfahosting GmbH
+Address: Ankerstraße 3b
+PostalCode: 06108
+City: Halle
+CountryCode: DE
+Phone: +49.3452093290
+Fax: +49.3456800499
+Email: hostmaster@alfahosting.de
+Changed: 2008-11-27T16:16:02+01:00
+
+Network Whois record
+
+Queried whois.ripe.net with "-B 82.197.146.48"...
+
+% Information related to '82.197.146.0 - 82.197.147.255'
+
+inetnum:        82.197.146.0 - 82.197.147.255
+netname:        LNC-ALFAHOSTING-GMBH
+descr:          Alfahosting GmbH
+descr:          Ankerstraße 3b, DE-06108 Halle
+country:        DE
+admin-c:        YT206-RIPE
+tech-c:         YT206-RIPE
+status:         ASSIGNED PA
+mnt-by:         LNC-MNT
+mnt-lower:      LNC-MNT
+changed:        registry@undeliverable.lambdanet.net 20070618
+changed:        registry@undeliverable.lambdanet.net 20080107
+source:         RIPE
+
+person:         Yves Tyralla
+address:        Alfahosting GmbH
+address:        Ankerstraße 3b, DE-06108 Halle
+phone:          +49 345 209 32 90
+fax-no:         +49 345 680 04 99
+e-mail:         tyralla@alfahosting.de
+abuse-mailbox:  abuse@alfahosting.de
+nic-hdl:        YT206-RIPE
+mnt-by:         LNC-MNT
+changed:        registry@undeliverable.lambdanet.net 20070618
+changed:        registry@undeliverable.lambdanet.net 20080107
+source:         RIPE
+
+% Information related to '82.197.128.0/19AS13237'
+
+route:          82.197.128.0/19
+descr:          LambdaNet Operations
+origin:         AS13237
+mnt-by:         LNC-MNT
+changed:        registry@undeliverable.lambdanet.net 20070423
+source:         RIPE
+
+DNS records
+name	class	type	data	time to live
+leibelt.de	IN	SOA	
+server:	ns8.alfahosting.info
+email:	hostmaster.alfahosting.de
+serial:	2008010902
+refresh:	28800
+retry:	7200
+expire:	604800
+minimum ttl:	180
+	10800s	(03:00:00)
+leibelt.de	IN	NS	ns10.alfahosting.info	10800s	(03:00:00)
+leibelt.de	IN	NS	ns9.alfahosting.info	10800s	(03:00:00)
+leibelt.de	IN	NS	ns8.alfahosting.info	10800s	(03:00:00)
+leibelt.de	IN	MX	
+preference:	10
+exchange:	mail.leibelt.de
+	10800s	(03:00:00)
+leibelt.de	IN	A	82.197.146.48	10800s	(03:00:00)
+48.146.197.82.in-addr.arpa	IN	PTR	alfa3024.alfahosting-server.de	86400s	(1.00:00:00)
+Traceroute
+
+Tracing route to leibelt.de [82.197.146.48]...
+hop 	rtt 	rtt 	rtt 	  	ip address 	fully qualified domain name
+1 	13 	1 	3 	  	70.84.211.97 	61.d3.5446.static.theplanet.com
+2 	1 	0 	0 	  	70.87.254.5 	po101.dsr02.dllstx5.networklayer.com
+3 	198 	3 	0 	  	70.85.127.109 	po52.dsr02.dllstx3.networklayer.com
+4 	0 	0 	0 	  	70.87.253.17 	e3-2.ibr03.dllstx3.networklayer.com
+5 	0 	0 	0 	  	64.125.199.93 	xe-3-0-0.er1.dfw2.us.above.net
+6 	1 	0 	0 	  	64.125.27.73 	xe-0-1-0.cr1.dfw2.us.above.net
+7 	6 	6 	6 	  	64.125.30.57 	xe-2-1-0.cr1.iah1.us.above.net
+8 	33 	33 	33 	  	64.125.31.214 	xe-5-0-0.cr1.dca2.us.above.net
+9 	33 	33 	33 	  	64.125.29.18 	ge-2-3-0.mpr1.dca2.us.above.net
+10 	105 	105 	105 	  	64.125.27.58 	so-0-1-0.mpr1.lhr2.uk.above.net
+11 	105 	105 	116 	  	64.125.27.146 	xe-0-1-0.mpr1.lhr1.uk.above.net
+12 	105 	105 	105 	  	195.66.224.99 	linx1.lon-2.uk.lambdanet.net
+13 	120 	120 	121 	  	82.197.136.17 	dus-1-pos700.de.lambdanet.net
+14 	125 	174 	125 	  	217.71.96.77 	han-1-eth020.de.lambdanet.net
+15 	129 	129 	129 	  	217.71.96.153 	ber-1-eth020.de.lambdanet.net
+16 	130 	130 	130 	  	217.71.96.6 	ber-4-eth110.de.lambdanet.net
+17 	130 	146 	130 	  	217.71.105.154 	lei-3-pos030.de.lambdanet.net
+18 	130 	130 	130 	  	217.71.97.2 	sw01.alfahosting-server.de
+19 	130 	130 	130 	  	82.197.146.48 	alfa3024.alfahosting-server.de
+
+Trace complete
+Service scan
+FTP - 21	220 FTP Server ready.
+SMTP - 25	220 alfa3024.alfahosting-server.de ESMTP Postfix (Debian/GNU)
+HTTP - 80	HTTP/1.1 200 OK
+Date: Fri, 07 Oct 2011 07:46:51 GMT
+Server: Apache
+Connection: close
+Content-Type: text/html; charset=utf-8
+POP3 - 110	+OK Hello there.
+IMAP - 143	* OK [CAPABILITY IMAP4rev1 UIDPLUS CHILDREN NAMESPACE THREAD=ORDEREDSUBJECT THREAD=REFERENCES SORT QUOTA IDLE ACL ACL2=UNION STARTTLS] Courier-IMAP ready. Copyright 1998-2008 Double Precision, Inc.  See COPYING for distribution information.
+
+-- end --
+================
+http://meineipadresse.de/html/ip-checker.php
+82.197.146.48
+====
+Address lookup
+canonical name 	alfa3024.alfahosting-server.de.
+aliases 	
+addresses 	82.197.146.48
+Domain Whois record
+
+Queried whois.denic.de with "-T ace,dn alfahosting-server.de"...
+
+Domain: alfahosting-server.de
+Nserver: ns10.alfahosting.info
+Nserver: ns8.alfahosting.info
+Nserver: ns9.alfahosting.info
+Status: connect
+Changed: 2011-04-17T21:00:29+02:00
+
+[Tech-C]
+Type: PERSON
+Name: Moritz Bartsch
+Organisation: Alfahosting GmbH
+Address: Ankerstraße 3b
+PostalCode: 06108
+City: Halle
+CountryCode: DE
+Phone: +49.3452093290
+Fax: +49.3456800499
+Email: hostmaster@alfahosting.de
+Changed: 2011-03-02T15:05:50+01:00
+
+[Zone-C]
+Type: PERSON
+Name: Moritz Bartsch
+Organisation: Alfahosting GmbH
+Address: Ankerstraße 3b
+PostalCode: 06108
+City: Halle
+CountryCode: DE
+Phone: +49.3452093290
+Fax: +49.3456800499
+Email: hostmaster@alfahosting.de
+Changed: 2011-03-02T15:05:50+01:00
+
+Network Whois record
+
+Queried whois.ripe.net with "-B 82.197.146.48"...
+
+% Information related to '82.197.146.0 - 82.197.147.255'
+
+inetnum:        82.197.146.0 - 82.197.147.255
+netname:        LNC-ALFAHOSTING-GMBH
+descr:          Alfahosting GmbH
+descr:          Ankerstraße 3b, DE-06108 Halle
+country:        DE
+admin-c:        YT206-RIPE
+tech-c:         YT206-RIPE
+status:         ASSIGNED PA
+mnt-by:         LNC-MNT
+mnt-lower:      LNC-MNT
+changed:        registry@undeliverable.lambdanet.net 20070618
+changed:        registry@undeliverable.lambdanet.net 20080107
+source:         RIPE
+
+person:         Yves Tyralla
+address:        Alfahosting GmbH
+address:        Ankerstraße 3b, DE-06108 Halle
+phone:          +49 345 209 32 90
+fax-no:         +49 345 680 04 99
+e-mail:         tyralla@alfahosting.de
+abuse-mailbox:  abuse@alfahosting.de
+nic-hdl:        YT206-RIPE
+mnt-by:         LNC-MNT
+changed:        registry@undeliverable.lambdanet.net 20070618
+changed:        registry@undeliverable.lambdanet.net 20080107
+source:         RIPE
+
+% Information related to '82.197.128.0/19AS13237'
+
+route:          82.197.128.0/19
+descr:          LambdaNet Operations
+origin:         AS13237
+mnt-by:         LNC-MNT
+changed:        registry@undeliverable.lambdanet.net 20070423
+source:         RIPE
+
+DNS records
+name	class	type	data	time to live
+alfa3024.alfahosting-server.de	IN	MX	
+preference:	10
+exchange:	alfa3024.alfahosting-server.de
+	10800s	(03:00:00)
+alfa3024.alfahosting-server.de	IN	A	82.197.146.48	10800s	(03:00:00)
+alfahosting-server.de	IN	SOA	
+server:	ns8.alfahosting.info
+email:	hostmaster.alfahosting.de
+serial:	2011092949
+refresh:	28800
+retry:	7200
+expire:	604800
+minimum ttl:	180
+	86400s	(1.00:00:00)
+alfahosting-server.de	IN	A	80.86.191.126	10800s	(03:00:00)
+alfahosting-server.de	IN	MX	
+preference:	10
+exchange:	mail.alfahosting-server.de
+	10800s	(03:00:00)
+alfahosting-server.de	IN	NS	ns10.alfahosting.info	43200s	(12:00:00)
+alfahosting-server.de	IN	NS	ns8.alfahosting.info	43200s	(12:00:00)
+alfahosting-server.de	IN	NS	ns9.alfahosting.info	43200s	(12:00:00)
+48.146.197.82.in-addr.arpa	IN	PTR	alfa3024.alfahosting-server.de	86400s	(1.00:00:00)
+Traceroute
+
+Tracing route to alfa3024.alfahosting-server.de [82.197.146.48]...
+hop 	rtt 	rtt 	rtt 	  	ip address 	fully qualified domain name
+1 	1 	1 	0 	  	70.84.211.97 	61.d3.5446.static.theplanet.com
+2 	0 	0 	0 	  	70.87.254.5 	po101.dsr02.dllstx5.networklayer.com
+3 	0 	0 	0 	  	70.85.127.109 	po52.dsr02.dllstx3.networklayer.com
+4 	0 	0 	0 	  	70.87.253.17 	e3-2.ibr03.dllstx3.networklayer.com
+5 	0 	0 	0 	  	64.125.199.93 	xe-3-0-0.er1.dfw2.us.above.net
+6 	16 	14 	1 	  	64.125.27.73 	xe-0-1-0.cr1.dfw2.us.above.net
+7 	8 	11 	6 	  	64.125.30.57 	xe-2-1-0.cr1.iah1.us.above.net
+8 	45 	33 	33 	  	64.125.31.214 	xe-5-0-0.cr1.dca2.us.above.net
+9 	33 	33 	33 	  	64.125.29.18 	ge-2-3-0.mpr1.dca2.us.above.net
+10 	105 	106 	105 	  	64.125.27.58 	so-0-1-0.mpr1.lhr2.uk.above.net
+11 	105 	105 	108 	  	64.125.27.146 	xe-0-1-0.mpr1.lhr1.uk.above.net
+12 	105 	105 	175 	  	195.66.224.99 	linx1.lon-2.uk.lambdanet.net
+13 	121 	121 	120 	  	82.197.136.17 	dus-1-pos700.de.lambdanet.net
+14 	125 	125 	125 	  	217.71.96.77 	han-1-eth020.de.lambdanet.net
+15 	129 	162 	130 	  	217.71.96.153 	ber-1-eth020.de.lambdanet.net
+16 	194 	130 	130 	  	217.71.96.6 	ber-4-eth110.de.lambdanet.net
+17 	130 	130 	130 	  	217.71.105.154 	lei-3-pos030.de.lambdanet.net
+18 	131 	130 	131 	  	217.71.97.2 	sw01.alfahosting-server.de
+19 	129 	130 	130 	  	82.197.146.48 	alfa3024.alfahosting-server.de
+
+Trace complete
+Service scan
+FTP - 21	220 FTP Server ready.
+SMTP - 25	220 alfa3024.alfahosting-server.de ESMTP Postfix (Debian/GNU)
+HTTP - 80	HTTP/1.1 302 Found
+Date: Fri, 07 Oct 2011 07:57:13 GMT
+Server: Apache
+Location: ./user/index.php
+Connection: close
+Content-Type: text/html
+POP3 - 110	+OK Hello there.
+IMAP - 143	* OK [CAPABILITY IMAP4rev1 UIDPLUS CHILDREN NAMESPACE THREAD=ORDEREDSUBJECT THREAD=REFERENCES SORT QUOTA IDLE ACL ACL2=UNION STARTTLS] Courier-IMAP ready. Copyright 1998-2008 Double Precision, Inc.  See COPYING for distribution information.
+
+-- end --
+================

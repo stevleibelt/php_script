@@ -1,0 +1,210 @@
+<html>
+	<head>
+		<title>
+			Login-Box
+		</title>
+		<style type="text/css">
+			a{
+				color: #000000;
+				font-size: 16px;
+				text-decoration: none;
+			}
+			a:hover{
+				color: #777777;
+			}
+
+			body{
+				color: #000000;
+				font-size: 16px;
+				background-color: #CCCCCC;
+			}
+
+			comment{
+				color: #222222;
+				font-size: 14px;
+				margin: 4px 0;
+				padding: 4px 2px;
+				background-color: #AABBCC;
+				border: 1px solid #666666;
+				border-right: none;
+				border-top: none;
+			}
+
+			h1{
+				font-size: 18px;
+				font-weight: bold;
+				margin: 12px 0;
+				padding: 4px 2px;
+				background-color: #AABBCC;
+				border: 1px solid #666666;
+				border-right: none;
+				border-bottom: none;
+			}
+
+			table{
+				background-color: #CCCCCC;
+				border: 1px solid #888888;
+			}
+
+			td{
+				background-color: #EEEEEE;
+				border: 1px solid #AAAAAA;
+			}
+
+			fieldset{
+				background-color: #99BBDD;
+				border: 1px solid #AAAAAA;
+			}
+
+			legend{
+				font-weight: bold;
+				background-color: #AACCEE;
+				border: 1px solid #777777;
+			}
+
+			.button1{
+				padding: 1px;
+				color: #EEEEEE;
+				background-color: #555555;
+				border: 1px solid #777777;
+			}
+			.button1:hover{
+				background-color: #777777;
+			}
+
+			.desc{
+				width: 80px;
+			}
+
+			.input{
+				width: 120px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Webmailer</h1>
+		<!-- gmx.de -->
+		<form method="post" action="https://service.gmx.net/de/cgi/login" name="lf" id="lf">
+			<fieldset id="fieldsetLoginUser">
+				<legend>gmx.de</legend>
+
+				<label for="gmx_email" class="desc">E-Mail:</label>
+				<input type="text" name="id" id="gmx_email" value="" class="imput" />
+
+				<label for="gmx_pw" class="desc">Passwort:</label>
+				<input type="password" name="p" id="gmx_pw"class="imput"  />
+
+				<input type="submit" value="login" id="login" class="button1" />
+				<ul>
+					<li><a href="http://service.gmx.net/de/cgi/g.fcgi/login/lose/password">Passwort vergessen?</a></li>
+					<li><a href="http://www.gmx.net/nossl/">Ohne SSL</a></li>
+				</ul>
+			</fieldset>
+
+			<input type="hidden" name="CUSTOMERNO" value="" />
+			<input type="hidden" name="t" value="" />
+			<input type="hidden" name="AREA" value="1" />
+			<input type="hidden" name="LANG" value="de" />
+			<input type="hidden" name="EXT" value="" />
+			<input type="hidden" name="EXT2" value="" />
+			<input type="hidden" name="uinguserid" value="" />
+		</form>
+
+		<!-- web.de -->
+		<form id="formLogin" method="post" name="fm" action="https://login.web.de/intern/login/" >
+			<fieldset>
+				<legend>web.de</legend>
+
+				<label for="inpLoginUsername" class="desc">E-Mail:</label>
+				<input  id="inpLoginUsername" type="text" name="username" class="imput"/>
+
+				<label for="inpLoginPasswd" class="desc">Passwort:</label>
+				<input  id="inpLoginPasswd" type="password" name="password" class="imput"/>
+
+				<input type="submit" name="rv_dologon" value="login" class="button1"/>
+				<ul id="loginLinks">
+					<li id="loginLinkNoSsl"><a href="http://web.de/fm_nossl/"><span>Ohne SSL</span></a></li>
+				</ul>
+			</fieldset>
+
+			<input type="hidden" name="service" value="freemail"/> 
+			<input type="hidden" name="server" value="https://freemail.web.de"/> 
+			<input type="hidden" name="onerror" value="https://freemail.web.de/msg/temporaer.htm"/>
+			<input type="hidden" name="onfail" value="https://freemail.web.de/msg/logonfailed.htm"/>
+		</form>
+
+		<!-- yahoo.de -->
+		<form method="post" action="https://login.yahoo.com/config/login?" name="login_form" >
+			<fieldset>
+				<legend>yahoo.de</legend>
+
+				<label for="username" class="desc">E-Mail:</label>
+				<input name="login" id="username" value="" type="text" maxlength="96" class="imput" />
+
+				<label for="passwd" class="desc">Passwort:</label>
+				<input name="passwd" id="passwd" value="" type="password" maxlength="64" class="imput" />
+
+				<input type="submit" id=".save" name=".save" value="login" class="button1"/>
+			</fieldset
+
+			<input type="hidden" name=".tries" value="1">
+			<input type="hidden" name=".src" value="ym">
+			<input type="hidden" name=".intl" value="de">
+			<input type="hidden" name=".u" value="0m2tm3d5ml24a">
+			<input type="hidden" name=".v" value="0">
+			<input type="hidden" name=".challenge" value="aZheDAAvFOksSUNFJ9RQJ0QjA.Oa">
+			<input type="hidden" name="hasMsgr" value="0">
+			<input type="hidden" name=".chkP" value="Y">
+			<input type="hidden" name=".done" value="http://de.mail.yahoo.com">
+			<input type="hidden" name=".pd" value="ym_ver=0&c=&ivt=&sg=">
+		</form>
+
+		<comment>gmx isn't working since 091216</comment>
+
+		<h1>Socialnetworkingsites</h1>
+		<!-- meinvz.net -->
+		<form id="Loginbox" method="post" action="https://secure.meinvz.net/Login">
+			<fieldset>
+				<legend>meinvz.net</legend>
+
+				<label id="Login-Email-Label" for="Login_email" class="desc">E-Mail:</label>
+				<input type="text" name="email" id="Login_email" value="" class="imput" />
+
+				<label id="Login-Password-Label" for="Login_password" class="desc">Passwort:</label>
+				<input type="password" name="password" id="Login_password" value="" class="imput" />
+
+				<input type="submit" name="login" value="login" class="button1"/>
+			</fieldset>
+
+			<input type="hidden" name="jsEnabled" id="jsEnabled" value="false" />
+			<script type="text/javascript">
+				document.getElementById('jsEnabled').value = 'true';
+			</script>
+			<input type="hidden" name="formkey" value="267b65e60417d637a8edaf357b623cf1bac34665f56db09cd86b44667a8bd19e85d888556287a1925eb727fd528526217fc38f2d8e6dba353300f09383111e613cd44dc04ce06e6c10c4a3392c2e1cac140f4a6e7a7be6852af2f3a82dcd80b6" />
+			<input type="hidden" name="iv" value="f60f25b3f35df48a5c846f30a628c3c2" />
+		</form>
+
+		<!-- xing.de -->
+		<form id="login-form" action="https://www.xing.com/app/user" method="post" name="loginform">
+			<fieldset>
+				<legend>xing.de</legend>
+
+				<label id="username-label" for="username" class="desc">E-Mail:</label>
+				<input id="username" type="text" name="login_user_name" maxlength="80" tabindex="201" class="imput" />
+
+				<label id="password-label" for="password" class="desc">Passwort:</label>
+				<input id="password" type="password" name="login_password" maxlength="80" tabindex="202" class="imput" />
+
+				<input type="submit" name="login" value="login" class="button1"/>
+
+				<ul id="loginLinks">
+					<li id="loginLinkNoSsl"><a href="https://www.xing.com/app/user?op=lostpassword" tabindex="205"><span>Passwort vergessen?</a></span></li>
+				</ul>
+			</fieldset>
+			<input type="hidden" name="op" value="login" /> 
+			<input type="hidden" name="dest" value="/app/startpage?op=home;from_login=1" />
+		</form>
+
+		<comment>Last update: 1000204_1004</comment>
+	</body>
+</html>

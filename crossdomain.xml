@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!-- http://php.script/crossdomain.xml -->
+<!DOCTYPE cross-domain-pilicy SYSTEM "http://www.macromedia.com/xml/dts/cross-domain-policy.dtd">
+<cross-domain-policy>
+  <allow-access-from domain="*.script" />
+</cross-domain-policy>
