@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('Europe/Berlin');
 
 $nl = PHP_EOL;
 $dateTime = new DateTime('0000-00-00');
