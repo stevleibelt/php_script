@@ -22,3 +22,7 @@ $domXml = $dom->importNode($domXml, true);
 $domXml = $dom->appendChild($domXml);
 
 echo $dom->saveXml();
+echo PHP_EOL;
+echo 'withouth version (for usage inside an other xml string)' . PHP_EOL;
+echo PHP_EOL;
+echo str_replace('<?xml version="1.0"?>' . "\n", '', $dom->saveXml());
