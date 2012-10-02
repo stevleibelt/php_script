@@ -1,8 +1,10 @@
-<?PHP
+<?php
 
-if(include('http://apps.eon-energie.com/EONBAYERN/energieaktiv/gewinnspiel/ressourcen/quizfragen_081101.php')){
-	echo '<br>Buhja!';
+$filename = 'math/to/my/file';
+
+if (@include($filename)) {
+  echo 'could include file with path "' . $filename . '"' . PHP_EOL;
+} else {
+  echo 'could not include file with path "' . $filename . '"' . PHP_EOL;
 }
-var_dump($fragen);
 
-?>

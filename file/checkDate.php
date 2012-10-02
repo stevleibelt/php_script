@@ -149,4 +149,3 @@ class security{										//Beinhaltet Sicherheitsfunktionen zum haerten des Syst
 		unset($return, $startValue, $variable);
 	}
 }
-?>

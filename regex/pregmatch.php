@@ -1,4 +1,4 @@
-<?
+<?php
 $input = '<script type="text/javascript">alert("XSS - DANGER - XSS")</script></p> "SELECT * FROM -- SELECT * FROM';
 $output = htmlspecialchars($input);
 echo '<br>output::'.$output."\n";
@@ -10,4 +10,3 @@ echo '<br>output::'.$output."\n";
 $input = 'SELECT "THUEGA_OU_QUESTIONS".* from "THUEGA_OU_QUESTIONS"';
 $output = str_replace('--', '', htmlentities($input));
 echo '<br>output::'.$output."\n";
-?>
