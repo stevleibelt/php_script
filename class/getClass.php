@@ -1,8 +1,10 @@
 <?php
 
+namespace my;
+
 abstract class A
 {
-  public final function getName()
+  public final function getClassName()
   {
     return get_class($this);
   }
@@ -27,8 +29,8 @@ class C extends A
 }
 
 $b = new B();
-echo $b->getName() . PHP_EOL;
+echo $b->getClassName() . PHP_EOL;
 echo $b->foo() . PHP_EOL;
 $c = new C();
-echo $c->getName() . PHP_EOL;
+echo $c->getClassName() . PHP_EOL;
 echo $c->foo() . PHP_EOL;
