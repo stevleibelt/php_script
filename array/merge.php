@@ -2,7 +2,7 @@
 $nl = '<br>' . PHP_EOL;
 
 $array1 = array('meins' => 'meins', 'deins' => 'deins', 0 => 'unsres');
-$array2 = array(0 => 'null', 1 => 'eins', 2 => 'zwei');
+$array2 = array('meins' => 'mir', 0 => 'null', 1 => 'eins', 2 => 'zwei');
 
 echo 'array1::' . $nl;
 print_r($array1);
