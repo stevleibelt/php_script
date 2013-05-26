@@ -13,3 +13,7 @@ for ($i = 0; $i < $totalNumberOfEntries; $i++) {
 }
 
 echo PHP_EOL;
+
+echo 'dividend: ' . $totalNumberOfEntries . PHP_EOL;
+echo 'divisor: ' . $newLineAfterNumberOfEntries . PHP_EOL;
+echo 'value of quotient: ' . ($totalNumberOfEntries / $newLineAfterNumberOfEntries) . PHP_EOL;
