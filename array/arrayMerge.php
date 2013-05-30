@@ -4,13 +4,15 @@ $array1 = array(
   0 => 0,
  '1' => 1,
  'two' => 2,
-  3 => 'default'
+  3 => 'default',
+  'foo' => 1
 );
 
 $array2 = array(
   2 => 2,
   3 => 'new',
-  666 => 'the number of the beast'
+  666 => 'the number of the beast',
+  'foo' => null
 );
 
 $array3 = array(
