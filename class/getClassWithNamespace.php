@@ -1,5 +1,7 @@
 <?php
 
+namespace my;
+
 abstract class A
 {
   public final function getClassName()
