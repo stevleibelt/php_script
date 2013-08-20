@@ -1,16 +1,17 @@
 <?php
+/**
+ * Example to show how private trait properties are handles in classes
+ *
+ * @author stev leibelt <artodeto@arcor.de>
+ * @since 2013-08-20
+ */
 
-$foo = new Foo();
-$foo->setFoo('foo');
-$foo->setBar('bar');
-
-echo 'getFoo' . PHP_EOL;
-echo $foo->getFoo() . PHP_EOL;
-echo 'getBar' . PHP_EOL;
-echo $foo->getBar() . PHP_EOL;
-echo 'getFooBar' . PHP_EOL;
-echo $foo->getFooBar() . PHP_EOL;
-
+ /**
+  * Class Foo
+  * 
+  * @author stev leibelt <artodeto@arcor.de>
+  * @since 2013-08-20
+  */
 class Foo
 {
     protected $foo;
@@ -32,6 +33,12 @@ class Foo
     }
 }
 
+ /**
+  * Trait BarTrait
+  *
+  * @author stev leibelt <artodeto@arcor.de>
+  * @since 2013-08-20
+  */
 trait BarTrait
 {
     protected $bar;
@@ -46,3 +53,21 @@ trait BarTrait
         return $this->bar;
     }
 }
+
+echo '----' . PHP_EOL;
+echo 'Creating class and injecting property values.' . PHP_EOL;
+
+$foo = new Foo();
+$foo->setFoo('foo');
+$foo->setBar('bar');
+
+echo '----' . PHP_EOL;
+echo 'getFoo' . PHP_EOL;
+echo $foo->getFoo() . PHP_EOL;
+
+echo 'getBar' . PHP_EOL;
+echo $foo->getBar() . PHP_EOL;
+
+echo 'getFooBar' . PHP_EOL;
+echo $foo->getFooBar() . PHP_EOL;
+echo '----' . PHP_EOL;
