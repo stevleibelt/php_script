@@ -14,8 +14,6 @@ echo str_repeat('-', 40) . PHP_EOL;
 echo 'initial time ' . $initialTime . PHP_EOL;
 echo str_repeat('-', 40) . PHP_EOL;
 
-//@todo what happens if sleep is two or three seconds?
-
 for($i=0;$i<$loops;$i++) {
     $currentTime = time();
     $timeDifference = $currentTime - $initialTime;
