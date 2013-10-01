@@ -20,6 +20,7 @@ if (file_exists($filePath)) {
 
     //now send the content
     $fileHandler = fopen($filePath, 'rb');
+    //$fileHandler = fopen('php://output', 'w');
 
     //taken from http://stackoverflow.com/questions/7457115/how-to-read-huge-file-and-output-it-with-php
     while(!feof($fileHandler)) {
