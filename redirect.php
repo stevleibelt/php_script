@@ -1,5 +1,4 @@
 <?php
-$location = 'http://www.leibelt.de')
 
+$location = 'http://www.leibelt.de')
 header ('Location: ' . $location);
-?>
