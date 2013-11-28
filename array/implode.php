@@ -4,12 +4,16 @@
  * @since 2013-11-28
  */
 
-$emptyArray = array();
+$defaultArray = array(
+    'values' => array()
+);
 $toMergeArray = array(
-    'foo',
-    'bar'
+    'values' => array(
+        'foo',
+        'bar'
+    )
 );
 
-$newArray = array_merge($emptyArray, $toMergeArray);
+$newArray = array_merge($defaultArray, $toMergeArray);
 
-echo implode(' ', $newArray) . PHP_EOL;
+echo implode(' ', $newArray['values']) . PHP_EOL;
