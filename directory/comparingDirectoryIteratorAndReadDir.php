@@ -4,6 +4,7 @@
 *
 * @author artodeto
 * @since 2013-03-06
+* @see http://jdhsu.blogspot.de/2010/01/9-ways-to-iterate-over-directory-in-php.html
 */
 
 $path = '../';
