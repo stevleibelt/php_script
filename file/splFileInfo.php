@@ -22,5 +22,6 @@ function printFileInformation(SplFileInfo $file)
     echo 'basename: ' . $file->getBasename() . PHP_EOL;
     echo 'filename: ' . $file->getFilename() . PHP_EOL;
     echo 'extension: ' . $file->getExtension() . PHP_EOL;
+    echo 'pathname: ' . $file->getPathname() . PHP_EOL;
     echo 'path: ' . $file->getPath() . PHP_EOL;
 }
