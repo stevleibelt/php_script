@@ -7,7 +7,7 @@
 $iterator = new FilesystemIterator(__DIR__ . '/../');
 
 foreach ($iterator as $item) {
-    echo $item->getFilename() . PHP_EOL;
+    echo $item->getPathname() . PHP_EOL;
 }
 
 echo PHP_EOL;
