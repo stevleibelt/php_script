@@ -15,5 +15,5 @@
  );
 
  foreach ($values as $value) {
-     echo 'Value: ' . var_export($value, true) . ' -> ' . (int) $value . PHP_EOL;
+     echo 'Value: ' . var_export($value, true) . ' (is integer: ' . (is_integer($value) ? 'yes' : 'no') . ') -> ' . (int) $value . PHP_EOL;
  }
