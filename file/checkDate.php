@@ -1,7 +1,11 @@
 <?
-//date:	2008_11_21
-//function:	checks if a filename (including a timestamp in format "YYMMDD")  is to old to be displayed
-//author:	stev leibelt
+/**
+ * checks if a filename (including a timestamp in format "YYMMDD")  is to old to be displayed
+ * @todo old code needs a lot of love :-)
+ *
+ * @author stev leibelt <artodeto@bazzline.net>
+ * @since 2008-11-21
+ */
 
 //__VAR
 $body['bgcolor'] = '456789';
@@ -28,7 +32,8 @@ checkFiledate('center_details_81126.phtml');
 HTML_buildHTMLBottom();
 
 //__FUNCTIONS
-function checkFiledate($filename){
+function checkFiledate($filename)
+{
 	//__VAR
 	global $security;
 	$thArray = array('var', 'type', 'content');
@@ -120,32 +125,31 @@ function HTML_outputVar($varname, $content, $contentStyle = ''){
 	unset($content, $varname);
 }
 
-class security{										//Beinhaltet Sicherheitsfunktionen zum haerten des Systems
-
-	public function __construct(){
-	}
-	
-	public function __destruct(){
-	}
-
-	public function checkFiledate($filename){		//Dateiname muss folgender Konvention genuegen: $NAME_YYMMDD.*, YYMMDD = Datum (Bsp. 831006)
+class security
+{
+	public function checkFiledate($filename)
+    {
+       	//Dateiname muss folgender Konvention genuegen: $NAME_YYMMDD.*, YYMMDD = Datum (Bsp. 831006)
 		$return = FALSE;
-		if(strlen($filename) > 0){
+
+		if (strlen($filename) > 0) {
 			$filedate = substr(strrchr($filename, '_'), 1);
 			$filedate = (int)substr($filedate, 0, strpos($filedate, '.'));
 			$date = (int)date('ym').'01';
 			$nextMonth = mktime(0, 0, 0, date('m')+1, 1, date('y'));
 			if(($filedate >= $date) || ($filedate < $nextMonth)) ($return = TRUE);
 		}
+
 		return $return;
-		unset($filedate, $filename, $return);
 	}
 
-	public function checkVars($variable = '', $startValue){	//wandelt $variable in int-Zahl um, Achtung, jede Zahl nach einem Text wird ignoriert
-		$variable = (int)$variable;
-		$startValue = (int)$startValue;
-		if($variable >= $startValue) ($return = $variable); else ($return = $startValue);
+	public function checkVars($variable = '', $startValue)
+    {
+        //wandelt $variable in int-Zahl um, Achtung, jede Zahl nach einem Text wird ignoriert
+		$variable = (int) $variable;
+		$startValue = (int) $startValue;
+        $return = ($variable >= $startValue) ? $variable : $startValue;
+
 		return $return;
-		unset($return, $startValue, $variable);
 	}
 }
