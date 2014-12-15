@@ -7,7 +7,7 @@ echo xdebug_var_dump(Validate::IsInt($int), true);
 /**
  * NET_BAZZLINE_VALIDATE is a class full of static functions to validate data
  *
- * @author artodeto@arcor.de
+ * @author artodeto@bazzline.net
  * @access public
  * @since 2010-11-23 23:07
  * @version $id
@@ -18,7 +18,7 @@ class Validate
      * Bazzline_Validate::IsInt
      * Validates if int is set and if typecast returns correct value
      *
-     * @author artodeto(AT)arcor(DOT)de
+     * @author artodeto@bazzline.net
      * @access public
      * @param int $int
 	 * @param boolean $strict

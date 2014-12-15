@@ -3,7 +3,7 @@
  * This script shows an example how to list all implemented interfaces from
  *  an object.
  *
- * @author stev leibelt <artodeto@arcor.de>
+ * @author stev leibelt <artodeto@bazzline.net>
  * @since 2013-09-24
  */
 

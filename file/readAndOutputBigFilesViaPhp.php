@@ -1,7 +1,7 @@
 <?php
 /**
  * @todo what the hell should this script do?
- * @author stev leibelt <artodeto@arcor.de>
+ * @author stev leibelt <artodeto@bazzline.net>
  * @since 2013-10-01
  */
 

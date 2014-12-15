@@ -2,14 +2,14 @@
 /**
  * Example to show how private trait properties are handles in classes
  *
- * @author stev leibelt <artodeto@arcor.de>
+ * @author stev leibelt <artodeto@bazzline.net>
  * @since 2013-08-20
  */
 
  /**
   * Class Foo
   * 
-  * @author stev leibelt <artodeto@arcor.de>
+  * @author stev leibelt <artodeto@bazzline.net>
   * @since 2013-08-20
   */
 class Foo
@@ -36,7 +36,7 @@ class Foo
  /**
   * Trait BarTrait
   *
-  * @author stev leibelt <artodeto@arcor.de>
+  * @author stev leibelt <artodeto@bazzline.net>
   * @since 2013-08-20
   */
 trait BarTrait

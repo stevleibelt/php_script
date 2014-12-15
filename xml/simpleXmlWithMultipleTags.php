@@ -2,7 +2,7 @@
 /**
  * Example how to iterate over a xml with multiple entries of same tag
  *
- * @author stev leibelt <artodeto@arcor.de>
+ * @author stev leibelt <artodeto@bazzline.net>
  * @since 2013-05-25
  */
 

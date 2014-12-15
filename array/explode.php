@@ -1,6 +1,6 @@
 <?php
 /**
- * @author stev leibetl <artodeto@arcor.de>
+ * @author stev leibetl <artodeto@bazzline.net>
  * @since 2013-10-16
  */
 

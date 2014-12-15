@@ -2,7 +2,7 @@
 /**
 * Example for json encoding.
 *
-* @author Stev Leibelt <artodeto@arcor.de>
+* @author Stev Leibelt <artodeto@bazzline.net>
 * @since 2013-01-11
 */
 

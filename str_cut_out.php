@@ -33,7 +33,7 @@ foreach($s as $v => $k)
 /**
  * Cuts out a part of string
  *
- * @author artodeto(AT)arcor(DOT)de
+ * @author artodeto@bazzline.net
  * @param string $string
  * 		the string containing the "to cut out" content
  * @param string $str_start

@@ -21,7 +21,7 @@
 /**
  * A Helperfunction to centralize db_querys
  *
- * @author artodeto(AT)arcor(DOT)de
+ * @author artodeto@bazzline.net
  * @param array $a
  * 	needed keys are 'select' and 'from', optional keys are 'where', 'group',
  * 		'order', 'limit'

@@ -3,7 +3,7 @@
 **URL-Renamer
 ****Just a little skript to change some Pathnames into "nice" names
 **Author
-****artodeto(at)arcor(dot)de
+****artodeto@bazzline.net
 **Date
 ****2008_10_27
 **Version
